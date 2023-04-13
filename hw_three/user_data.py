@@ -31,3 +31,21 @@ article = 'Michael Joseph Jackson (August 29, 1958 – June 25, 2009) was an Ame
           'include the Rock and Roll Hall of Fame (twice), the Vocal Group Hall of Fame, the Songwriters Hall of' \
           'Fame, the Dance Hall of Fame (the only recording artist to be inducted), and the Rhythm and Blues Music' \
           'Hall of Fame.'
+
+items = {
+    'Screwdriver': 2,
+    'Flashlight': 3,
+    'Thermal underwear': 6,
+    'Raincoat': 3,
+    'First Aid Kit': 3,
+    'Personal hygiene products': 4,
+    'Repair Kit': 1,
+    'Sleeping bag': 10,
+    'Thermos': 3,
+    'Tent': 10,
+    'Trekking poles': 7,
+    'Dishes': 5,
+    'Rug': 2
+}
+
+items_in_backpack = {}

@@ -7,6 +7,7 @@ def print_most_common(given_str):
     text_dict = dict(collections.Counter(list(given_str.split(' '))).most_common(10))
     view.most_common()
     print_dict(text_dict)
+    print()
 
 
 def print_dict(given_dict):

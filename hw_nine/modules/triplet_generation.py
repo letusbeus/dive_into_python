@@ -10,4 +10,4 @@ def generating_random_triplets_in_csv_file(file_name):
             writer.writerow(row)
 
 
-generating_random_triplets_in_csv_file('../triplets.csv')
+generating_random_triplets_in_csv_file('triplets.csv')

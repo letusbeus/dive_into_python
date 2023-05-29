@@ -4,6 +4,9 @@ class Animal:
         self.age = age
 
     def get_info(self) -> str:
+        """
+        Получаем данные об экземпляре класса: имя, возраст, остальные поля при наличии
+        """
         info = f'{"Type:":8}{type(self).__name__}\n'
         fields = vars(self)
         for field, value in fields.items():
@@ -37,15 +40,13 @@ class Dog(Animal):
         self.fur = fur
         self.voice = voice
 
+
+class Cat(Animal):
+    def __init__(self, name, age, fur, voice):
+        super().__init__(name, age)
+        self.fur = fur
+        self.voice = voice
+
+
 if __name__ == '__main__':
     print('Not for separate use')
-
-
-bob = Dog(name='Fido', age=5, voice='Woof!', fur='Pale, long')
-vanda = Fish(name='Vanda', age=5, color='Rainbow')
-bird = Bird(name='Carl', age=8, color='Black', voice='CRAW!')
-noon = Animal(name='Human', age=33)
-# print(noon.get_info())
-# print(bob.get_info())
-# print(vanda.get_info())
-# print(bird.get_info())

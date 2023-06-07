@@ -1,0 +1,16 @@
+Name,Type,Size (byte),Parent directory
+aliases_number_pairs.txt,File,253,D:\dive_into_python\hw_eight
+main.py,File,1126,D:\dive_into_python\hw_eight
+modules,Directory,13185,D:\dive_into_python\hw_eight
+convert_pairs.py,File,636,D:\dive_into_python\hw_eight\modules
+save_users_data.py,File,3880,D:\dive_into_python\hw_eight\modules
+task_one.py,File,2726,D:\dive_into_python\hw_eight\modules
+__init__.py,File,362,D:\dive_into_python\hw_eight\modules
+__pycache__,Directory,5581,D:\dive_into_python\hw_eight\modules
+convert_pairs.cpython-310.pyc,File,630,D:\dive_into_python\hw_eight\modules\__pycache__
+save_users_data.cpython-310.pyc,File,2786,D:\dive_into_python\hw_eight\modules\__pycache__
+task_one.cpython-310.pyc,File,1749,D:\dive_into_python\hw_eight\modules\__pycache__
+__init__.cpython-310.pyc,File,416,D:\dive_into_python\hw_eight\modules\__pycache__
+view.py,File,3393,D:\dive_into_python\hw_eight
+__pycache__,Directory,3546,D:\dive_into_python\hw_eight
+view.cpython-310.pyc,File,3546,D:\dive_into_python\hw_eight\__pycache__

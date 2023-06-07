@@ -1,0 +1,92 @@
+[
+    {
+        "Name": "aliases_number_pairs.txt",
+        "Type": "File",
+        "Size (byte)": 253,
+        "Parent directory": "D:\\dive_into_python\\hw_eight"
+    },
+    {
+        "Name": "main.py",
+        "Type": "File",
+        "Size (byte)": 1126,
+        "Parent directory": "D:\\dive_into_python\\hw_eight"
+    },
+    {
+        "Name": "modules",
+        "Type": "Directory",
+        "Size (byte)": 13185,
+        "Parent directory": "D:\\dive_into_python\\hw_eight"
+    },
+    {
+        "Name": "convert_pairs.py",
+        "Type": "File",
+        "Size (byte)": 636,
+        "Parent directory": "D:\\dive_into_python\\hw_eight\\modules"
+    },
+    {
+        "Name": "save_users_data.py",
+        "Type": "File",
+        "Size (byte)": 3880,
+        "Parent directory": "D:\\dive_into_python\\hw_eight\\modules"
+    },
+    {
+        "Name": "task_one.py",
+        "Type": "File",
+        "Size (byte)": 2726,
+        "Parent directory": "D:\\dive_into_python\\hw_eight\\modules"
+    },
+    {
+        "Name": "__init__.py",
+        "Type": "File",
+        "Size (byte)": 362,
+        "Parent directory": "D:\\dive_into_python\\hw_eight\\modules"
+    },
+    {
+        "Name": "__pycache__",
+        "Type": "Directory",
+        "Size (byte)": 5581,
+        "Parent directory": "D:\\dive_into_python\\hw_eight\\modules"
+    },
+    {
+        "Name": "convert_pairs.cpython-310.pyc",
+        "Type": "File",
+        "Size (byte)": 630,
+        "Parent directory": "D:\\dive_into_python\\hw_eight\\modules\\__pycache__"
+    },
+    {
+        "Name": "save_users_data.cpython-310.pyc",
+        "Type": "File",
+        "Size (byte)": 2786,
+        "Parent directory": "D:\\dive_into_python\\hw_eight\\modules\\__pycache__"
+    },
+    {
+        "Name": "task_one.cpython-310.pyc",
+        "Type": "File",
+        "Size (byte)": 1749,
+        "Parent directory": "D:\\dive_into_python\\hw_eight\\modules\\__pycache__"
+    },
+    {
+        "Name": "__init__.cpython-310.pyc",
+        "Type": "File",
+        "Size (byte)": 416,
+        "Parent directory": "D:\\dive_into_python\\hw_eight\\modules\\__pycache__"
+    },
+    {
+        "Name": "view.py",
+        "Type": "File",
+        "Size (byte)": 3393,
+        "Parent directory": "D:\\dive_into_python\\hw_eight"
+    },
+    {
+        "Name": "__pycache__",
+        "Type": "Directory",
+        "Size (byte)": 3546,
+        "Parent directory": "D:\\dive_into_python\\hw_eight"
+    },
+    {
+        "Name": "view.cpython-310.pyc",
+        "Type": "File",
+        "Size (byte)": 3546,
+        "Parent directory": "D:\\dive_into_python\\hw_eight\\__pycache__"
+    }
+]

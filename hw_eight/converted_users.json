@@ -1,0 +1,38 @@
+[
+    {
+        "Name": "Dan",
+        "User ID": "0000000001",
+        "Access Level": 3,
+        "Hash": 532528232231534678
+    },
+    {
+        "Name": "Steve",
+        "User ID": "0000000002",
+        "Access Level": 2,
+        "Hash": 3714773832388593161
+    },
+    {
+        "Name": "Mary",
+        "User ID": "0000000005",
+        "Access Level": 2,
+        "Hash": 4757282885480732563
+    },
+    {
+        "Name": "Vincent",
+        "User ID": "0000000006",
+        "Access Level": 2,
+        "Hash": 5785053015363745120
+    },
+    {
+        "Name": "Emily",
+        "User ID": "0000000003",
+        "Access Level": 1,
+        "Hash": 8715005605390121417
+    },
+    {
+        "Name": "Amanda",
+        "User ID": "0000000004",
+        "Access Level": 1,
+        "Hash": -3141376123090890738
+    }
+]

@@ -12,7 +12,7 @@ def task():
 
 
 def is_number(self):
-    return f'The value of side can only be a number, you specified {type(self.value)}, value: {self.value}.'
+    return f'The value of side can only be a number, you passed {type(self.value)}, value: {self.value}.'
 
 def is_positive(self):
-    return f'The value of side cannot be negative or zero, you specified {self.value}.'
+    return f'The value of side cannot be negative or zero, you passed {self.value}.'

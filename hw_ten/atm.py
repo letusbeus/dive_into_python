@@ -13,13 +13,13 @@ class atm:
         self.operations.append(val)
     def add_money(self, money: int | float):
         while not money % 50 == 0:
-            view.multiplicity_message()
+            # view.multiplicity_message()
             money = int(input())
         self.operation_logs(self.bank_account + money)
         self.bank_account += money
 
     def get_money(self, money: int | float):
-        while money % 50 != 0:
+        while not money % 50 == 0:
             view.multiplicity_message()
             money = int(input())
         if money <= 2_000:
@@ -94,15 +94,19 @@ class atm:
         Выводит лог операций по счету
         :return:
         """
-        info = 'Operations performed in the current session:\n'
-        for operation in self.operations:
-            if operation > 0:
-                info += f'Enrollment {operation} y.e.\n'
-            elif operation < 0:
-                info += f'Withdrawal {operation} y.e.'
-            else:
-                continue
-        return info
+
+        if len(self.operations) > 0:
+            info = ''
+            for idx, operation in enumerate(self.operations, 1):
+                if operation > 0:
+                    info += f'{idx:4}. Enrollment {operation} y.e.\n'
+                elif operation < 0:
+                    info += f'{idx:4}. Withdrawal {operation} y.e.\n'
+                else:
+                    continue
+            return view.operations_message() + info
+        else:
+            return view.no_operations_message()
 
     # match/case пользовательского ввода
     @staticmethod
@@ -133,7 +137,8 @@ class atm:
         """
         match value:
             case 'Пополнить счет':
-                money = self.check_input_value(input('Введите сумму для пополнения: '))
+                print(view.multiplicity_message())
+                money = self.check_input_value(input())
                 return self.add_money(money)
             case 'Снять деньги со счета':
                 money = self.check_input_value(input('Введите сумму для снятия: '), 1)

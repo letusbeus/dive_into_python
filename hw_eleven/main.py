@@ -19,7 +19,8 @@ if __name__ == '__main__':
     # Сложение матриц
     matrix_sum = matrix1 + matrix2
     print(matrix_sum)
-    print(Matrix([[1, 2, 3], [4, 5, 6]]) + 'qwe') #TypeError: Unsupported operand type for +: Matrix and <class 'list'>
+    # print(Matrix([[1, 2, 3], [4, 5, 6]]) + 'qwe') #TypeError: Unsupported operand type for +: Matrix and <class 'str'>
+    # print(Matrix([[1, 2, 3], [4, 5, 6]]) + [1, 2]) #TypeError: Unsupported operand type for +: Matrix and <class 'list'>
     # print(m + matrix1) #ValueError: Cannot add matrices of different sizes
 
     # Умножение матриц (транспонирование)
